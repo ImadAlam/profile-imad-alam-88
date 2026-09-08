@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imad Alam — Portfolio</title>
+    <meta name="description" content="A luxurious, animated portfolio showcasing Imad Alam's CS background, research-driven FYP, skills, and certifications." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <canvas id="stars"></canvas>
+
+    <header class="topbar">
+      <a class="brand" href="#home">IA<span>.</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#certs">Credentials</a>
+      </nav>
+      <a class="chip" href="#contact">Contact</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computer Science · AI · Research</p>
+          <h1>Imad Alam</h1>
+          <h2>Research-focused portfolio for academic and professional review</h2>
+          <p class="lead">A concise showcase of my research work, technical projects, frontend skills, and academic profile.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore Work</a>
+            <a class="button ghost" href="#research">View Research</a>
+          </div>
+          <div class="meta-grid">
+            <div class="meta-card"><span>Location</span><strong>Swat, Pakistan</strong></div>
+            <div class="meta-card"><span>Focus</span><strong>AI · DL · Frontend</strong></div>
+            <div class="meta-card"><span>Strength</span><strong>Research & practice</strong></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="glass portrait-card tilt">
+            <img src="./public/assets/profile.jpg" alt="Imad Alam portrait" />
+            <div class="portrait-caption">
+              <strong>Imad Alam</strong>
+              <span>Building intelligent systems with style</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div class="section-title reveal">
+          <p class="eyebrow">About</p>
+          <h3>Built for committees, supervisors, and serious reviewers.</h3>
+        </div>
+        <div class="glass panel reveal">
+          <p>I build applied machine learning systems, research projects, and practical web interfaces with a focus on clarity and reliability.</p>
+          <p>The portfolio keeps the content direct, credible, and easy to review, while still presenting the work in a polished way.</p>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-title reveal">
+          <p class="eyebrow">Education</p>
+          <h3>Academic background.</h3>
+        </div>
+        <div class="timeline">
+          <article class="glass timeline-card reveal"><span class="year">2022–2026</span><h4>Bachelor of Science in Computer Science</h4><p>Iqra National University, Swat Campus</p><p><strong>CGPA:</strong> 3.54 / 4.00</p></article>
+          <article class="glass timeline-card reveal"><span class="year">2019–2021</span><h4>F.Sc. Pre-Medical</h4><p>Govt. P.G. Jehanzeb College, Swat</p><p><strong>Marks:</strong> 866 / 1100</p></article>
+          <article class="glass timeline-card reveal"><span class="year">2017–2019</span><h4>Matriculation — Science</h4><p>Al-Azhar Educational Institute, Swat</p><p><strong>Marks:</strong> 975 / 1100</p></article>
+        </div>
+        <p class="note reveal">Official transcripts and attested certificates are available upon request for verified academic or professional evaluation.</p>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-title reveal">
+          <p class="eyebrow">Projects</p>
+          <h3>Interactive case studies with repository links.</h3>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual-cloudburst">
+              <span>01</span>
+              <strong>Cloudburst</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-head"><h4>Deep Learning-Based Cloudburst Prediction</h4><a href="https://github.com/ImadAlam/Deep-Learning-based-cloudburst-prediction-" target="_blank" rel="noreferrer">Repo ↗</a></div>
+              <p>Bidirectional LSTM sequence model using ERA5 atmospheric features, focal loss, class balancing, and a Flask dashboard for near real-time cloudburst risk prediction.</p>
+              <div class="tags"><span>BiLSTM</span><span>ERA5</span><span>Flask</span><span>Python</span></div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual-drought">
+              <span>02</span>
+              <strong>Drought</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-head"><h4>Drought Intelligence Dashboard</h4><a href="https://github.com/ImadAlam/Drought-Prediction-For-Swat" target="_blank" rel="noreferrer">Repo ↗</a></div>
+              <p>An applied drought-risk monitoring system for Swat Valley using live weather data, engineered hydroclimate features, and a Flask dashboard with forecast views.</p>
+              <div class="tags"><span>Random Forest</span><span>Open-Meteo</span><span>Flask</span></div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual-shopping">
+              <span>03</span>
+              <strong>Shopping</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-head"><h4>Customer Shopping Behavior Analysis</h4><a href="https://github.com/ImadAlam/customer-shopping-behaviour-analysis" target="_blank" rel="noreferrer">Repo ↗</a></div>
+              <p>End-to-end data pipeline and dashboard project using Python, SQL, and Power BI to analyze purchases, retention, and revenue behavior.</p>
+              <div class="tags"><span>SQL</span><span>Power BI</span><span>Python</span></div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual-uber">
+              <span>04</span>
+              <strong>Uber</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-head"><h4>Uber Ride Analytics</h4><a href="https://github.com/ImadAlam/Uber-ride-analytics-dashboard" target="_blank" rel="noreferrer">Repo ↗</a></div>
+              <p>Interactive Power BI dashboard analyzing ride bookings, revenue, trip patterns, vehicle types, and pickup-drop insights.</p>
+              <div class="tags"><span>Power BI</span><span>DAX</span><span>Analytics</span></div>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual project-visual-retail">
+              <span>05</span>
+              <strong>Retail</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-head"><h4>Retail Sales Analysis SQL Project</h4><a href="https://github.com/ImadAlam/retail_sale_analysis-1-" target="_blank" rel="noreferrer">Repo ↗</a></div>
+              <p>SQL database project for cleaning, querying, and analyzing retail sales data to support business questions and reporting.</p>
+              <div class="tags"><span>SQL</span><span>Database</span><span>Analysis</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="research" class="section split research">
+        <div class="section-title reveal">
+          <p class="eyebrow">Research</p>
+          <h3>Cloudburst system made for advanced study review.</h3>
+        </div>
+        <div class="glass panel reveal">
+          <p>The core project predicts cloudburst risk for Babusar Top using time-sequenced atmospheric data and a Bidirectional LSTM model. The system includes preprocessing, training, deployment, and a live dashboard experience.</p>
+          <div class="stats"><div><strong>98.2%</strong><span>test accuracy</span></div><div><strong>0.9751</strong><span>ROC-AUC</span></div><div><strong>0.4250</strong><span>PR-AUC</span></div><div><strong>2 hr</strong><span>forecast horizon</span></div></div>
+          <div class="stack"><span>TensorFlow</span><span>Keras</span><span>Flask</span><span>SQLite</span><span>scikit-learn</span><span>Power BI</span><span>SQL</span></div>
+        </div>
+        <article class="research-feature glass reveal">
+          <div class="research-feature-image">
+            <img src="./public/assets/cloudburst.jpeg" alt="Cloudburst research project presentation" />
+            <span class="research-feature-badge">Research project</span>
+          </div>
+          <div class="research-feature-copy">
+            <p class="eyebrow">Cloudburst · FYP</p>
+            <h4>Deep Learning-Based Cloudburst Prediction</h4>
+            <p>A research-led forecasting system designed to identify cloudburst risk from atmospheric signals and support clearer, faster decisions in high-risk regions.</p>
+            <div class="tags"><span>BiLSTM</span><span>ERA5</span><span>Risk prediction</span></div>
+            <a class="research-feature-link" href="https://github.com/ImadAlam/Deep-Learning-based-cloudburst-prediction-" target="_blank" rel="noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <div class="section-title reveal" style="margin-top: 1.5rem;">
+          <h3>Drought Intelligence Dashboard.</h3>
+        </div>
+        <div class="glass panel reveal">
+          <p>The drought project monitors risk across Swat Valley and nearby locations using live weather data from the Open-Meteo API, engineered hydroclimate features, and a trained machine learning classifier. It provides current drought risk, regional comparisons, hotspot rankings, and forecast outlooks through a Flask-based dashboard.</p>
+          <div class="stats"><div><strong>24</strong><span>engineered features</span></div><div><strong>150</strong><span>trees in Random Forest</span></div><div><strong>90%</strong><span>test accuracy</span></div><div><strong>7/30/90</strong><span>day outlooks</span></div></div>
+          <div class="stack"><span>Open-Meteo</span><span>Random Forest</span><span>Flask</span><span>Python</span><span>pandas</span><span>scikit-learn</span><span>Dashboard</span></div>
+        </div>
+      </section>
+
+      <section id="certs" class="section">
+        <div class="section-title reveal">
+          <p class="eyebrow">Credentials</p>
+          <h3>Verified links and text-first certification display.</h3>
+        </div>
+        <div class="cert-grid">
+          <article class="glass cert-card reveal">
+            <h4>Communication and Network Security</h4>
+            <p>Packt via Coursera · Aug 27, 2025</p>
+            <img class="qr" alt="QR code for Communication and Network Security" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fcoursera.org%2Fverify%2FJ3TLCK3KVMMV" />
+            <a href="https://coursera.org/verify/J3TLCK3KVMMV" target="_blank" rel="noreferrer">Verify certificate</a>
+          </article>
+          <article class="glass cert-card reveal">
+            <h4>Python Data Structures</h4>
+            <p>University of Michigan via Coursera · Aug 26, 2025</p>
+            <img class="qr" alt="QR code for Python Data Structures" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fcoursera.org%2Fverify%2F9WR1WVKOSUL7" />
+            <a href="https://coursera.org/verify/9WR1WVKOSUL7" target="_blank" rel="noreferrer">Verify certificate</a>
+          </article>
+          <article class="glass cert-card reveal">
+            <h4>Programming for Everybody</h4>
+            <p>University of Michigan via Coursera · Jul 8, 2025</p>
+            <img class="qr" alt="QR code for Programming for Everybody" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fcoursera.org%2Fverify%2F049CP99Z7X0D" />
+            <a href="https://coursera.org/verify/049CP99Z7X0D" target="_blank" rel="noreferrer">Verify certificate</a>
+          </article>
+          <article class="glass cert-card reveal">
+            <h4>Data Analytics Essentials</h4>
+            <p>Cisco Networking Academy · Jul 1, 2026</p>
+            <span class="tiny">Verification details available from the issuer record.</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-title reveal">
+          <p class="eyebrow">Contact</p>
+          <h3>Direct contact details for professional review.</h3>
+        </div>
+        <div class="contact-grid">
+          <a class="glass contact-card reveal" href="mailto:alam1122imad@gmail.com">
+            <span>Email</span>
+            <strong>alam1122imad@gmail.com</strong>
+          </a>
+          <a class="glass contact-card reveal" href="tel:+923189852388">
+            <span>Phone</span>
+            <strong>+92 318 9852388</strong>
+          </a>
+          <a class="glass contact-card reveal" href="https://github.com/ImadAlam" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>ImadAlam</strong>
+          </a>
+          <div class="glass contact-card reveal">
+            <span>Location</span>
+            <strong>Swat, Pakistan</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div><strong>Imad Alam</strong><p>Open for research review and professional opportunities.</p></div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
